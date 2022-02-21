@@ -1,10 +1,11 @@
 a= input("what is your name")
 age= int(input("how old are you?"))
 print(f"hello {a.upper()} who is {age} years old")
-b = print(f"in 5 years you will be {age+5}"))
-if b > 12:
-    print("you will be very young in 5 years time!")
-elif b <12 >100:
-    print("you will be old in 5 years")
+b = print(f"in 5 years you will be {age+5}")
+FIVE = age + 5
+if FIVE < 12:
+    print("ythat will make you young!")
+elif FIVE >12 and FIVE < 100:
+    print("that will make you old")
 else:
-    print("you will be very old in 5 years")
+    print("that will make you very old")
