@@ -1,6 +1,6 @@
-a= input("what is your name")
+a= input("what is your name:")
 age= int(input("how old are you?"))
-print(f"hello {a.upper()} who is {age} years old")
+print(f"hello {a.title()} who is {age} years old")
 b = print(f"in 5 years you will be {age+5}")
 FIVE = age + 5
 if FIVE < 12:

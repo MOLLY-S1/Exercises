@@ -1,5 +1,6 @@
 #Random Exercise
 mode = input("easy or hard mode????")
+mode = mode.upper()
 if mode == 'HARD':
     import random
     number = random.randint(1,101)
@@ -17,7 +18,7 @@ while guess != number:
     elif guess > number:
         print("Guess lower")
         guess = int(input("What is the number????"))
-        count = count+1
+        count = count +1
         if count == 4:
             print("too many Guessses, try again later")
             print(f"the number was {number}")
